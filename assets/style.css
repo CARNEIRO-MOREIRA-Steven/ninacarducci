@@ -69,8 +69,16 @@ body {
 
 .picture img {
 	width: 100%;
+	height: 100%;
 
 }
+
+#carousel{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 #about-me {
 	flex: 2
 }
@@ -91,7 +99,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 .title{
 	text-align: center;
