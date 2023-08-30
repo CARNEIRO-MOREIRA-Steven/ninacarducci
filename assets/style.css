@@ -1,9 +1,13 @@
 body {
 	max-width: 1920px;
+    margin: auto;
 }
 * {
 	font-family: 'Inter';
 	font-style: normal;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
 }
 .top-header {
 	background-color: white;
@@ -91,6 +95,13 @@ body {
 	font-size: 14px;
 }
 
+.container{
+	width: 100%;
+	padding-left: var(--bs-gutter-x, 0.75rem);
+	padding-right: var(--bs-gutter-x, 0.75rem);
+	margin-right: auto;
+	margin-left: auto;
+}
 #gallery {
 		min-height: 100vh;
 }
@@ -135,11 +146,18 @@ body {
 	margin: auto;
 	padding-block: 3em;
 }
+
+figure{
+	margin: 0 0 1rem
+}
+blockquote{
+	margin: 0 0 1rem
+}
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 2.5rem;
+	font-size: 2rem;
 
 }
 .quote__author {
@@ -168,7 +186,6 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding: 2em 0;
-	margin: 30px;
 }
 
 .service {
